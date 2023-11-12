@@ -100,28 +100,28 @@ export default function Home() {
       </div>
       <div>
         {age !== null && (
-          <div className=" text-center font-semibold mt-4">
+          <div className="text-center font-semibold mt-4">
             <p>
-              <span className="text-[7rem] sm:text-xl">
+              <span className="lg:text-[7rem] text-[4rem]">
               {age.years} 
               </span>
-              <span className="text-[7rem] sm:text-xl">
+              <span className="lg:text-[7rem] text-[4rem]">
               .
               </span>
            
-              <span className="text-[5.5rem] sm:text-lg">
+              <span className="lg:text-[5.5rem] text-[3rem]">
               {age.remainingHours}
               </span>
-              <span className="text-[5.5rem] sm:text-lg">
+              <span className="lg:text-[5.5rem] text-[3rem]">
               .
               </span>
-              <span className="text-[4.5rem] sm:text-base">
+              <span className="lg:text-[4.5rem] text-[2rem]">
               {age.remainingMinutes}
               </span>
-              <span className="text-[4.5rem] sm:text-base">
+              <span className="lg:text-[4.5rem] text-[2rem]">
               .
               </span>
-              <span className="text-[3.5rem] sm:text-sm">
+              <span className="lg:text-[3.5rem] text-[1.5rem]">
               {age.remainingSeconds}
               </span>
             
