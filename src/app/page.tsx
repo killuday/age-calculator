@@ -64,11 +64,11 @@ export default function Home() {
   return (
     <>
       <div className="flex items-center justify-center mt-10">
-        <div className="text-center bg-white p-8 rounded-lg shadow-lg">
-          <h1 className="text-6xl text-lime-500 font-bold mb-6">
+        <div className="text-center bg-white p-8 rounded-lg shadow-custom">
+          <h1 className="text-3xl md:text-6xl text-lime-500 font-bold mb-6">
             Age Calculator
           </h1>
-          <h3 className="text-xl font-semibold">
+          <h3 className="md:text-xl text-lg font-semibold md:mb-0 mb-5">
             {" "}
             Select or type in your Date of Birth:
           </h3>
